@@ -1,0 +1,59 @@
+# 团队知识库管理工具 - 后端API服务
+# Python依赖包清单
+
+# Web框架
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# 数据库
+# sqlite3 - Python内置，无需安装
+aiosqlite>=0.19.0
+
+# 身份验证
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# 文件处理
+aiofiles>=23.2.1
+python-magic>=0.4.27
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+
+# 数据验证
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+email-validator>=2.0.0
+
+# HTTP客户端和工具
+httpx>=0.25.2
+requests>=2.31.0
+
+# 日志
+loguru>=0.7.2
+
+# 环境变量
+python-dotenv>=1.0.0
+
+# CORS支持
+fastapi-cors>=0.0.6
+
+# 限流
+slowapi>=0.1.9
+
+# 测试
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+httpx>=0.25.2  # 用于测试
+
+# 开发工具
+black>=23.11.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.7.1
+
+# 类型检查
+types-requests>=2.31.0
+
+# 可选：全文搜索增强
+# whoosh>=2.7.4  # 如需更强大的搜索功能
